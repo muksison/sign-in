@@ -1,4 +1,4 @@
-h*, *:before, *:after {
+*, *:before, *:after {
   padding: 0;
   margin: 0;
   border: 0;
@@ -25,6 +25,141 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+
+.section1 {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fcfd;
+  padding: 136px 5px 36px 5px; }
+
+.s1__container {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.s1__img {
+  display: flex;
+  align-items: center; }
+  .s1__img img {
+    width: 100%;
+    max-width: 427px; }
+
+.s1__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .s1__content__text1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px; }
+  .s1__content__title {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 21px; }
+  .s1__content__text2 {
+    font-size: 16px;
+    font-weight: 500; }
+
+.section2 {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 130px 5px 130px 5px; }
+
+.s2__container {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+  .s2__container__content1 {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .s2__container__content1 ul a {
+      text-decoration: none;
+      color: #333333; }
+
+.s2__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 5px;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  max-height: 350px; }
+  .s2__list__item {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 100%;
+    max-width: 360px;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 18px;
+    font-weight: 500; }
+    .s2__list__item.active {
+      background-color: #0f7bff;
+      border-radius: 5px;
+      -webkit-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .s2__list__item.active a {
+        color: white; }
+
+.s2__container__content2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.s2__content2__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 643px;
+  margin-bottom: 47px;
+  overflow: auto; }
+  .s2__content2__item__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 34px; }
+
+.s2__content2__help {
+  display: flex;
+  width: 100%; }
+  .s2__content2__help__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 37px; }
+  .s2__content2__help__btns__yes {
+    padding: 4px 21px;
+    border-radius: 3px;
+    background-color: #0f7bff;
+    color: white;
+    border: 1px solid #0f7bff;
+    text-decoration: none; }
+  .s2__content2__help__btns__no {
+    padding: 4px 21px;
+    border-radius: 3px;
+    border: 1px solid #0f7bff;
+    color: #0f7bff;
+    text-decoration: none; }
 
 .section3 {
   display: flex;
@@ -78,7 +213,39 @@ a {
 .s3__content2__list__item.first a {
   color: #0f7bff; }
 
-@media (max-width: 950px) {
+@media (max-width: 1036px) {
+  .s1__container {
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+  .s1__content {
+    align-items: center;
+    margin-bottom: 30px; }
+    .s1__content__title {
+      text-align: center; }
+
+  .s2__container {
+    flex-wrap: wrap; }
+    .s2__container__content1 {
+      margin-bottom: 30px; }
+    .s2__container__content2 {
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+
+  .s2__content2__help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; }
+    .s2__content2__help__title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-right: 0;
+      margin-bottom: 25px; } }
+@media (max-width: 1036px) and (max-width: 950px) {
   .s3__wrapper {
     flex-direction: column;
     align-items: center;

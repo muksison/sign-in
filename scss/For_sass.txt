@@ -1,0 +1,11 @@
+FAQ_style.scss:
+
+sass --watch "D:\Projects\Smart World Academy\SWA-first-task\sign-in\scss\faq_style.scss":"D:\Projects\Smart World Academy\SWA-first-task\sign-in\css\faq_style.css"
+
+menu_style.scss:
+
+sass --watch "D:\Projects\Smart World Academy\SWA-first-task\sign-in\scss\menu_style.scss":"D:\Projects\Smart World Academy\SWA-first-task\sign-in\css\menu_style.css"
+
+signin_style.scss:
+
+sass --watch "D:\Projects\Smart World Academy\SWA-first-task\sign-in\scss\signin_style.scss":"D:\Projects\Smart World Academy\SWA-first-task\sign-in\css\signin_style.css"
